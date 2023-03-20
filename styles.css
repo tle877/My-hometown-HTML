@@ -1,0 +1,159 @@
+
+
+body {
+    margin: 0;
+    padding:5px;
+    height:100%;
+
+}
+
+#hero{
+    margin-bottom: -25px;
+    display:flex;
+    background-image: url("HUe.jpg");
+    color:white;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 350px;
+    width:100%;
+}
+div >h1{
+
+    background-color:#404E7C;
+}
+
+div>h2{
+    width:1;
+    background-color:#251F47;
+    font-size:25px;
+}
+
+div >h1, div > h2{
+    padding :8px;
+    border-radius: 5%;
+    border: 10px,solid,white;
+    text-shadow: 1px 1px 2px black;
+}
+
+div[class="place-items"] > img{
+    border-radius: 50%;
+    display:flex;
+    height: 150px;
+    width:150px;
+
+}
+#activities{
+    background-color:#d6f1e1;
+    margin-top: -20px;
+    margin-bottom: -15px;
+    padding: 5px;
+    height:  30%;
+}
+#activities>h3{
+    margin: 4px auto;
+    text-align: center;
+}
+div[id="place"]{ 
+
+    display:flex;
+    justify-content: space-around;
+    padding:3px;
+}
+
+.place-items{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    justify-content: space-around;
+    max-height: 500px;
+    min-height:200x;
+}
+
+.place-items>h4{
+    margin-top:5px;
+    margin-bottom: 25px;
+}
+
+div[class="place-items"] > p{
+    margin-top:-20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#110457; 
+    margin-bottom: 8px;
+    font-weight:480;
+    font-style:oblique;
+    text-shadow: darkblue;
+
+}
+
+h3{
+    color: #251F47;
+    font-size: 40px;
+
+}
+h4{
+    color: #251F47;
+    font-size: large;
+}
+a:hover{
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: larger;
+    color:rgb(236, 42, 8);
+    font-weight: bold;
+}
+
+#guide{
+    background:linear-gradient(#d6f1e1, #21d749);
+
+    padding:30px;
+}
+div[id="ava"]>img{
+    width: 190px;
+    margin:15px 5px;
+    height: 200px;
+}  
+#card{
+    display:flex;
+    background-color: rgb(202, 239, 239);
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: -5px;
+    border-bottom: 5px solid rgb(28, 90, 11);
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    border-top: 1px solid rgb(29, 94, 148);
+    border-left: 1px solid rgb(29, 94, 148);
+    border-right: 1px solid rgb(29, 94, 148);
+
+}
+
+#infp{
+    width:300px;
+    text-align: center;
+}
+#info>p{
+    width: 200px;
+    margin:10px;
+    font-style: italic;
+    font-size: large;
+}
+#info>h3,h4{
+    margin:0;
+    text-align: center;
+}
+#info>h3{
+    font-size: 25px;
+}
+#info>h4{
+    font-size: 20px;
+}
+
